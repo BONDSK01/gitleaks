@@ -182,7 +182,7 @@ keywords = [
 [[rules]]
 id = "cae-svc-pattern2"
 description = "Identified a potential pattern match to an CAE SVC account, which could lead to unauthorized access to Service Account and sensitive data exposure."
-regex = '''(?i)(?:~~!!~~)'''
+regex = '''(?i)[^\s]*(?:~~!!~~)[^\s]*'''
 keywords = [
     "~~!!~~",
 ]
